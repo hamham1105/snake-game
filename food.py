@@ -3,7 +3,6 @@ import random
 
 
 class Food(Turtle):
-
     def __init__(self):
         super().__init__()
         self.shape("circle")
@@ -14,6 +13,6 @@ class Food(Turtle):
         self.refresh()
 
     def refresh(self):
-        rand_x = random.randint(-240, 240)
-        rand_y = random.randint(-240, 240)
+        rand_x = random.randint(-230, 230)
+        rand_y = random.randint(-230, 230)
         self.goto(rand_x, rand_y)
